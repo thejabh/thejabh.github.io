@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <video autoplay muted loop id="myVideo">
+        <source src="Videos/background_video.mp4" type="video/mp4">
+    </video>
+    <script src="homepage.js"></script>
+    <link rel="stylesheet" href="home.css"></link>       
+    <body>
+        <div class="menu">
+            <label class="home-button"  onclick="homepage()">Home</label>
+            <label class="about-us-button" onclick='about_us()'>About us</label>
+            <label class="login-button" onclick='login()'>Login</label>
+            
+        </div>
+        <!-- <div class="card">
+            <button class="snake-button" onclick="window.location.replace('Snake-game-js/index.html')">
+                snake game
+                
+            <div clss="design"></div>
+            </button>
+        </div>
+        </div>
+        <div class="card">
+            <button class="hangman-button" onclick="window.location.replace('hangman-game-js/index.html')">
+                hangman game
+            </button>
+        </div> -->
+        <div class="card-snake" onclick="location.replace('Snake-game-js/snake-game.html')">
+            <div class="content">
+                <div class="back">
+                    <div class="back-content">
+                        <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+                        <img src="Images/snake-game.png" style="width:100%;height:100%"/>    
+        
+                        </svg>
+                        <strong>【ＳＮＡＫＥＧＡＭＥ】</strong>
+                    </div>
+                </div>
+                <div class="front">
+                    <div class="img">
+                        
+                    <div  id="right">
+                    </div>
+                    <div  id="bottom">
+                    </div>
+                </div>
+                <div class="front-content">
+                    <small class="badge">
+                        <!-- <img src="snake-game-title.png" style="width:70%"/> -->
+                        <p style="font-size:20px">Ⓢ𝗡𝗔𝓚E͛ 🅖A̲𝑴𝙀</p>
+                    </small>
+                    <div class="description">
+                        <div class="title">
+                            <img src="Images/snake-game2.png" style="width:80%;height:80%"/>
+                        </div>
+                            <p class="card-footer">
+                                30 Mins &nbsp; | &nbsp; don't play too much
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card-hangman" onclick="location.replace('hangman-game-js/hangman.html')">
+            <div class="content">
+                <div class="back">
+                    <div class="back-content">
+                        <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+                        <img src="Images/hangman-game.png" style="width:250px;height:100%"/>    
+        
+                        </svg>
+                        <strong>【ＨＡＮＧＭＡＮ】</strong>
+                    </div>
+                </div>
+                <div class="front">
+                    <div class="img">
+                        
+                    <div  id="right">
+                    </div>
+                    <div  id="bottom">
+                    </div>
+                </div>
+                <div class="front-content">
+                    <small class="badge">
+                        <!-- <img src="snake-game-title.png" style="width:70%"/>-->
+                        <p style="font-size:20px">H̶A͟🅽𝙶𝐌𝖠N̳</p>
+                    </small>
+                    <div class="description">
+                        <div class="title">
+                            <img src="Images/hangman-game.png" style="width:100%;height:100%"/>
+                        </div>
+                            <p class="card-footer">
+                                30 Mins &nbsp; | &nbsp; don't play too much
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body> 
+</html>

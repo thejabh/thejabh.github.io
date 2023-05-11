@@ -1,0 +1,119 @@
+.card1 {
+    width: 195px;
+    height: 285px;
+    background: #626262b8;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.card2 {
+    width: 195px;
+    height: 285px;
+    background: #626262b8;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.img {
+    height: 30%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.textBox1 {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.textBox2 {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.textBox1 > .text {
+    font-weight: bold;
+}
+
+.textBox1 > .head {
+    font-size: 20px;
+}
+
+
+.textBox1 > span {
+    font-size: 15px;
+    color: lightgrey;
+}
+
+.card1:hover > .textBox1 {
+    opacity: 1;
+}
+.card2:hover > .textBox2 {
+    opacity: 1;
+}
+.textBox1 > .text {
+    font-weight: bold;
+}
+
+.textBox2 > .head2 {
+    font-size: 20px;
+}
+
+
+.textBox2 > span {
+    font-size: 15px;
+    color: lightgrey;
+}
+
+.card1:hover > .img {
+    height: 65%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+}
+
+.card2:hover > .img {
+    height: 65%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+}
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.card1:hover {
+    transform: scale(1.04) rotate(-1deg);
+}
+
+.card2:hover {
+    transform: scale(1.04) rotate(-1deg);
+}
