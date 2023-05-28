@@ -1,16 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE html
 <html>
-    <video autoplay muted loop id="myVideo">
-        <source src="Videos/background-Video.mp4" type="video/mp4">
-    </video>
-    <script src="homepage.js"></script>
-    <link rel="stylesheet" href="home.css"></link>       
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <script src="homepage.js"></script>
+        <link rel="stylesheet" href="home.css">    
+        <video autoplay muted loop id="myVideo">
+            <source src="Videos/background-Video.mp4" type="video/mp4">
+        </video> 
+    </head>    
     <body>
+    
         <div class="menu">
+            <nav>
             <label class="home-button"  onclick="homepage()">Home</label>
             <label class="about-us-button" onclick='about_us()'>About us</label>
             <label class="login-button" onclick='login()'>Login</label>
-            
+            </nav>
         </div>
         <!-- <div class="card">
             <button class="snake-button" onclick="window.location.replace('Snake-game-js/index.html')">
@@ -68,7 +75,7 @@
                 <div class="back">
                     <div class="back-content">
                         <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
-                        <img src="Images/hangman-game.png" style="width:250px;height:100%"/>    
+                        <img src="Images/hangman-game.png" style="width:100%;height:100%"/>    
         
                         </svg>
                         <strong>【ＨＡＮＧＭＡＮ】</strong>
