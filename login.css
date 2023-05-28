@@ -267,7 +267,7 @@ body{
 <<<<<<< HEAD
 @media only screen and (max-width:1200px){
 =======
-@media screen and (max-width:600px){
+@media screen and (max-width:1200px){
 >>>>>>> 7a282b1188e68ae3c72a2b3287d47f0c5ac1b932
     *{
         font-size: 12px;
