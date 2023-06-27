@@ -1,4 +1,4 @@
-//Initial References
+
 const letterContainer = document.getElementById("letter-container");
 const optionsContainer = document.getElementById("options-container");
 const userInputSection = document.getElementById("user-input-section");
@@ -17,7 +17,7 @@ let options = {
     "Pomegranate",
     "Watermelon",
   ],
-  animals: ["Hedgehog", "Rhinoceros", "Squirrel", "Panther", "Walrus", "Zebra"],
+  animals: ["Hedgehog", "Rhinoceros", "Squirrel", "Panther", "Walrus", "Zebra", "Tiger" ],
   countries: [
     "India",
     "Hungary",
@@ -28,13 +28,13 @@ let options = {
   ],
 };
 
-//count
+
 let winCount = 0;
 let count = 0;
 
 let chosenWord = "";
 
-//Display option buttons
+// option button
 const displayOptions = () => {
   optionsContainer.innerHTML += `<h3>Please Select An Option</h3>`;
   let buttonCon = document.createElement("div");
@@ -44,7 +44,7 @@ const displayOptions = () => {
   optionsContainer.appendChild(buttonCon);
 };
 
-//Block all the Buttons
+//Block the Buttons
 const blocker = () => {
   let optionsButtons = document.querySelectorAll(".options");
   let letterButtons = document.querySelectorAll(".letters");
