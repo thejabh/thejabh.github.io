@@ -70,45 +70,39 @@ body {
     color: #0d0d0d;
     margin-bottom: 1.5rem;
 }
-
-.card-text {
-    font-size: 1.6rem;
-    letter-spacing: 0.1rem;
-    line-height: 1.7;
-    color: #3d3d3d;
-    margin-bottom: 2.5rem;
+.btn-linkedin {
+    background: #0E76A8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+    overflow: hidden;
+}
+.btn-linkedin img {
+    height: 2.5em;
+    width: 2.5em; /* Set the height of the image to match the button */
 }
 
-
-/* .card-btn {
-    display: block;
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 2rem;
-    text-align: center;
-    color: #3363ff;
-    background-color: #d8e0fd;
-    border: none;
-    border-radius: 0.4em;
-    transition: 0.2s;
-    cursor: pointer;
-    letter-spacing: 0.1em;
+.btn-linkedin span {
+    margin-right: 5px;
 }
 
-.card-btn span {
-    margin-left: 1em;
-    transition: 0.2s;
+.btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
 }
 
-.card-btn:hover,
-.card-btn:active {
-    background-color: #16a5dd;
+.btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
 }
 
-.card-btn:hover span,
-.card-btn:active span {
-    margin-left: 1.5em;
-} */
 
 @media only screen and(max-width:60em) {
     body {
