@@ -59,7 +59,10 @@ body {
     height: 20rem;
     object-fit: cover;
 }
+.card-text{
 
+    font-size: 13px;
+}
 .card-content {
     padding: 3rem;
 }
@@ -81,7 +84,8 @@ body {
     border-radius: 30px;
     color: #fff;
     border-width: 1px;
-    border-style: solid;
+    border-style:solid;
+    font-weight: bold;
     border-color: #084461;
     overflow: hidden;
 }
